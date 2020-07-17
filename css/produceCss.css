@@ -1,0 +1,51 @@
+.produce-detail-1{
+	transition: all .6s;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border: 1px solid #bdbdbd;
+	border-radius: 10px;
+	box-shadow: 0 3px 6px -4px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+}
+.produce-detail-1 .img-box{
+	overflow: hidden;
+	padding: 10px;
+}
+.produce-detail-1 .img-box .img-mod img {
+    transition: all .6s;
+}
+.produce-detail-1 .img-box .img-mod img:hover {
+    transform: scale(1.2);
+    transition: all .6s;
+}
+.produce-detail-1:hover a{
+	color: #5a9c50;
+	transition: all .6s;
+}
+.produce-detail-1 .img-box .img-mod img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    max-height: none;
+    max-width: none;
+    transition: all .7s ease;
+}
+.produce-detail-1 .produce-name{
+	text-align: center;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+@media screen and (max-width: 767px){
+	.col-sm-4{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+@media screen and (max-width: 500px){
+	.col-sm-4{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}

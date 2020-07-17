@@ -1,0 +1,114 @@
+.title-detail {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background: #5cb24e;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.box-detail {
+    display: flex;
+    padding: 20px;
+    background: #e8e8e8;
+    margin-bottom: 30px;
+}
+.box-detail .img-box {
+    width: 290px;
+    padding: 20px;
+    background: #fff;
+    flex: 0 0 290px;
+    max-width: 290px;
+}
+.box-detail .content-box {
+    width: 100%;
+    margin-left: 30px;
+    padding: 20px;
+    background: #fff;
+}
+.box-detail .title-box{
+	font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #482124;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.box-detail .title-box::before {
+    content: "";
+    width: 60px;
+    background: #5cb24e;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.img-box-like img{
+	width: unset;
+	height: unset;
+}
+.content-detail-rev{
+	position: relative;
+}
+.detail-content-product {
+    display: flex;
+    border: 1px solid #ededed;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+.detail-content-product .title-detail-product {
+    flex: 0 0 225px;
+    max-width: 225px;
+    text-align: center;
+    padding-left: 0;
+}
+.title-detail-product {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background: #5cb24e;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.detail-content-product .content-detail-page {
+    padding-top: 15px;
+    width: 100%;
+    padding-left: 30px;
+    max-height: 250px;
+    overflow: hidden;
+    transition:  all 1.2s ease;
+}
+.content-detail-rev .xem-day-du {
+    display: block;
+}
+.content-detail-rev .btn-xt-tg {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #5cb24e;
+    cursor: pointer;
+    border: 1px solid #5cb24e;
+    transition: .4s all ease;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.content-detail-rev .xem-day-du.active {
+    display: block;
+}
+.content-detail-rev .thu-gon.active {
+    display: none;
+}
+.detail-content-product .content-detail-page.active {
+    padding-top: 15px;
+    width: 100%;
+    padding-left: 30px;
+    max-height: unset;
+    transition: all 5s ease;
+}
